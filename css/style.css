@@ -1,0 +1,175 @@
+* ,
+*::after ,
+*::before {
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+.header{
+
+}
+.header-top{
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 40px;
+    color: #FFFFFF;
+}
+.header__top-inner{
+    border: 2px solid #ECB84C;
+    height: 100%;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+}
+.header__title{
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 227px;
+    margin: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.header__text{
+    display: flex;
+    white-space: nowrap;
+    font-size: 24px;
+    line-height: 27px;
+    align-items: center;
+    margin-bottom: -12.5px;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.header__text::after ,
+.header__text::before{
+    content: "";
+    width: 100%;
+    border-top: 2px solid #ECB84C;
+}
+.header__text::after{
+    content: "";
+    margin-left: 24px;
+}
+.header__text::before{
+    content: "";
+    margin-right: 24px;
+}
+.menu{
+    
+}
+.content{
+    
+}
+.menu__list{
+    display: flex;
+    justify-content: center;
+}
+.menu__item{
+    padding-top: 24px;
+    align-items: center;
+    height: 60px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #909090;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border-bottom: none;
+}
+.menu__list :last-child{
+    margin: 0;
+}
+.menu__list :hover{
+    color: #4E5665;
+    border-bottom: 4px solid #ECB84C;
+}
+.main{
+
+}
+.conteiner{
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+}
+.read-more{
+    
+}
+.main__box{
+    margin-top: 80px; 
+    padding-bottom: 80px;
+}
+.main-box{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-box__title{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #4E5665;
+    text-align: center;
+}
+.main-box__txt{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #505050;
+}
+.anchor-link{
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ECB84C;
+}
+.anchor-link a{
+    color: #ECB84C;
+}
+.main-box-content{
+
+}
+.stats{
+   margin-top: 95px; 
+   text-align: center;
+}
+.stats__row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-item{
+}
+.stats-icon{
+
+}
+.stats-number{
+    margin-top: 34px;
+    color: #4E5665;
+    font-size: 22px;
+    sline-height: 30px;
+}
+.stats-stats{
+    color: #909090;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.cadillacs-cuba__img{
+    margin: 40px 0 40px 0;
+}
+.cadillacs-cuba__img img{
+    width: 100%;
+}
+
+
+
+.cuba-photo__img{
+    text-align: center;
+    margin-top: 76px;
+}
+.cuba-photo__img img{
+    width: 66%;
+}
